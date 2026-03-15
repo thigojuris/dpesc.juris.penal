@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPR - Direito Penal DPE-SC</title>
+    <style>
+        :root {
+            --cor-fundo: #f2efe4; /* Bege papel/tático */
+            --cor-vermelho: #b30000; /* Vermelho alerta */
+            --cor-preto: #0e0e0e;
+            --cor-dourado: #c5a021;
+        }
+
+        body {
+            font-family: 'Arial Black', Gadget, sans-serif;
+            background-color: var(--cor-fundo);
+            color: var(--cor-preto);
+            margin: 0;
+            line-height: 1.4;
+        }
+
+        header {
+            background-color: var(--cor-preto);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+            border-bottom: 8px solid var(--cor-vermelho);
+        }
+
+        .badge-unidade {
+            border: 2px solid var(--cor-vermelho);
+            padding: 5px 15px;
+            font-size: 0.9em;
+            letter-spacing: 3px;
+            display: inline-block;
+            margin-bottom: 20px;
+            color: var(--cor-vermelho);
+        }
+
+        h1 { font-size: 3.5em; margin: 0; text-transform: uppercase; }
+        .sub-header { font-size: 1.2em; color: var(--cor-fundo); margin-top: 10px; font-weight: normal; font-family: Arial, sans-serif; }
+
+        .container { max-width: 900px; margin: 40px auto; padding: 20px; }
+
+        .section-box {
+            background: white;
+            border: 3px solid var(--cor-preto);
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 10px 10px 0px var(--cor-preto);
+        }
+
+        .tag {
+            background: var(--cor-vermelho);
+            color: white;
+            padding: 5px 10px;
+            text-transform: uppercase;
+            font-size: 0.8em;
+            display: inline-block;
+            margin-bottom: 15px;
+        }
+
+        h2 { text-transform: uppercase; border-bottom: 4px solid var(--cor-preto); padding-bottom: 10px; }
+
+        ul { list-style: none; padding: 0; }
+        li { 
+            padding: 15px; 
+            border-bottom: 1px solid #ddd; 
+            position: relative; 
+            padding-left: 40px;
+            font-family: Arial, sans-serif;
+            font-weight: bold;
+        }
+        li::before {
+            content: ">>";
+            position: absolute;
+            left: 5px;
+            color: var(--cor-vermelho);
+        }
+
+        .cta-container { text-align: center; margin-top: 50px; }
+
+        .btn-venda {
+            background: var(--cor-vermelho);
+            color: white;
+            padding: 25px 50px;
+            text-decoration: none;
+            font-size: 1.8em;
+            display: inline-block;
+            border: 4px solid var(--cor-preto);
+            box-shadow: 7px 7px 0px var(--cor-preto);
+            transition: 0.2s;
+        }
+
+        .btn-venda:hover {
+            transform: translate(-3px, -3px);
+            box-shadow: 10px 10px 0px var(--cor-preto);
+        }
+
+        footer { text-align: center; padding: 40px; font-size: 0.8em; opacity: 0.7; }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="badge-unidade">PROTOCOLO DE RETA FINAL</div>
+    <h1>GPR: DIREITO PENAL</h1>
+    <div class="sub-header">REVISÃO ATIVA DA JURISPRUDÊNCIA ESSENCIAL DO STF, STJ E SÚMULAS</div>
+</header>
+
+<div class="container">
+    
+    <div class="section-box">
+        <span class="tag">Objetivo do Produto</span>
+        <h2>Foco Total na DPE-SC</h2>
+        <p style="font-family: Arial, sans-serif;">Não é um curso expositivo. É uma ferramenta tática de <strong>revisão direcionada</strong> para quem busca a aprovação como Defensor e Defensora Pública[cite: 5, 104].</p>
+    </div>
+
+    <div class="section-box">
+        <span class="tag">O Que Você Vai Dominar</span>
+        <ul>
+            <li><strong>Jurisprudência de Elite:</strong> Teses essenciais do STF e STJ selecionadas para a Defensoria[cite: 6, 7].</li>
+            <li><strong>Mapa de Súmulas:</strong> O que realmente cai em provas objetivas de alto nível[cite: 8, 22].</li>
+            <li><strong>Literalidade Estratégica:</strong> O Código Penal focado em distinções e "pegadinhas"[cite: 9, 12].</li>
+            <li><strong>Revisão de Véspera:</strong> Material estruturado para máxima retenção nos últimos dias[cite: 16, 217].</li>
+        </ul>
+    </div>
+
+    <div class="section-box" style="background: #111; color: white;">
+        <h2 style="border-color: var(--cor-vermelho);">Metodologia de Revisão Ativa</h2>
+        <p style="font-family: Arial, sans-serif;">Chega de leitura passiva. Nosso sistema ajuda você a:</p>
+        <ul style="color: white;">
+            <li>Diagnosticar suas maiores fragilidades no estudo[cite: 14, 166].</li>
+            <li>Transformar informativos complexos em retenção útil para prova[cite: 74, 238].</li>
+            <li>Testar sua memorização através de blocos de fixação e flashcards[cite: 139, 154].</li>
+            <li>Identificar o fundamento jurídico e a "pegadinha" da banca[cite: 70, 71].</li>
+        </ul>
+    </div>
+
+    <div class="cta-container">
+        <a href="SEU_LINK_AQUI" class="btn-venda">QUERO MINHA REVISÃO DE ALTO IMPACTO</a>
+        <p style="margin-top: 15px; font-family: Arial, sans-serif;"><em>"A batalha se vence na base. Não perca pontos fáceis."</em></p>
+    </div>
+
+</div>
+
+<footer>
+    DIREITO PENAL EM JURISPRUDÊNCIA PARA A DPE-SC – REVISÃO ATIVA PARA FUTUROS DEFENSORES E DEFENSORAS.
+</footer>
+
+</body>
+</html>
